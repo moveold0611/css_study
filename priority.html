@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- 우선순위 id > 클래스 > 타입 -->
+    <style>
+        /* #btn {
+            color: blue;
+        } */
+
+        .c-button {
+            color: yellow;
+        }
+
+        .test-div button {
+            color: red ;
+        }
+        /* !important 우선순위 조정 */
+    </style>
+
+</head>
+<body>
+    <div class="test-div">
+        <button id="btn" class="c-button c2-button">버튼</button>            
+    </div>
+    
+    <button class="">버튼2</button>
+</body>
+</html>
