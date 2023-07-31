@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+
+    <style>
+        html {
+            background-color: gray;
+        }
+               
+
+        .flex-box-container {
+            display: flex;
+            flex-wrap: wrap; /* 자동 줄바꿈*/
+            flex-direction: row;  /* 주축과 교차축을 바꿔준다  */
+            justify-content: space-between; /* 일정한 간격으로 띄우기*/
+            /* justify 주축 */
+            /* align-items: start; */
+            /* align 교차축 */
+            margin: 30px 0px;
+            border: 1px solid #dbdbdb;
+            padding: 10px;
+            width: 100%;            
+        }
+
+        .category-items {
+            display: inline-block;
+            margin: 5px 5px;
+            border: 1px solid #3e3e3e;
+            border-radius: 5px;
+            padding: 5px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-box-container">
+        <div class="category-items">메소드</div>
+        <div class="category-items">프로그래밍</div>
+        <div class="category-items">2 차원 배열</div>
+        <div class="category-items">문자열</div>
+        <div class="category-items">객체</div>
+        <div class="category-items">메소드</div>
+        <div class="category-items">프로그래밍</div>
+        <div class="category-items">2 차원 배열</div>
+        <div class="category-items">문자열</div>
+        <div class="category-items">객체</div>
+        <div class="category-items">메소드</div>
+        <div class="category-items">프로그래밍</div>
+        <div class="category-items">2 차원 배열</div>
+        <div class="category-items">문자열</div>
+        <div class="category-items">객체</div>
+        <div class="category-items">메소드</div>
+        <div class="category-items">프로그래밍</div>
+        <div class="category-items">2 차원 배열</div>
+        <div class="category-items">문자열</div>
+        <div class="category-items">객체</div>
+    </div>
+</body>
+</html>
